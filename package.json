@@ -1,0 +1,27 @@
+{
+  "name": "pickfile",
+  "version": "0.1.1",
+  "description": "pick file from multi directories by type",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter List --check-leaks test/"
+  },
+  "author": {
+    "name": "hxc",
+    "email": "xiaocong.hxc@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigfactory/pickfile.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "fs-walk": "0.0.1",
+    "in-array": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}
